@@ -1,3 +1,9 @@
+import image1 from "../assets/image-1.jpg";
+import image2 from "../assets/image-2.jpg";
+import image3 from "../assets/image-3.jpg";
+import image4 from "../assets/image-4.jpg";
+import image5 from "../assets/image-5.jpg";
+
 function Hero() {
   return (
     <>
@@ -12,22 +18,22 @@ function Hero() {
 
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <img src="src/assets/image-1.jpg" />
+                <img src={image1} />
                 <p className="text-[12px] text-[#0F1111]">Van Cleef</p>
               </div>
 
               <div>
-                <img src="src/assets/image-2.jpg" />
+                <img src={image2} />
                 <p className="text-[12px] text-[#0F1111]">Cartier</p>
               </div>
 
               <div>
-                <img src="src/assets/image-3.jpg" />
+                <img src={image3} />
                 <p className="text-[12px] text-[#0F1111]">Tiffany</p>
               </div>
 
               <div>
-                <img src="src/assets/image-4.jpg" />
+                <img src={image4} />
                 <p className="text-[12px] text-[#0F1111]">BVLGARI</p>
               </div>
             </div>
@@ -44,22 +50,22 @@ function Hero() {
 
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <img src="src/assets/image-1.jpg" />
+                <img src={image1} />
                 <p className="text-[12px] text-[#0F1111]">Van Cleef</p>
               </div>
 
               <div>
-                <img src="src/assets/image-2.jpg" />
+                <img src={image2} />
                 <p className="text-[12px] text-[#0F1111]">Cartier</p>
               </div>
 
               <div>
-                <img src="src/assets/image-3.jpg" />
+                <img src={image3} />
                 <p className="text-[12px] text-[#0F1111]">Tiffany</p>
               </div>
 
               <div>
-                <img src="src/assets/image-4.jpg" />
+                <img src={image4} />
                 <p className="text-[12px] text-[#0F1111]">BVLGARI</p>
               </div>
             </div>
@@ -76,22 +82,22 @@ function Hero() {
 
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <img src="src/assets/image-1.jpg" />
+                <img src={image1} />
                 <p className="text-[12px] text-[#0F1111]">Van Cleef</p>
               </div>
 
               <div>
-                <img src="src/assets/image-2.jpg" />
+                <img src={image2} />
                 <p className="text-[12px] text-[#0F1111]">Cartier</p>
               </div>
 
               <div>
-                <img src="src/assets/image-3.jpg" />
+                <img src={image3} />
                 <p className="text-[12px] text-[#0F1111]">Tiffany</p>
               </div>
 
               <div>
-                <img src="src/assets/image-4.jpg" />
+                <img src={image4} />
                 <p className="text-[12px] text-[#0F1111]">BVLGARI</p>
               </div>
             </div>
@@ -107,7 +113,7 @@ function Hero() {
 
             <div className="grid ">
               <div>
-                <img src="src/assets/image-1.jpg" className="w-[100%]" />
+                <img src={image1} className="w-[100%]" />
                 <p className="text-[12px] text-[#0F1111] ">Van Cleef</p>
               </div>
               <p className="text-[#2162A1] text-[14px] mt-10">Shop now</p>
