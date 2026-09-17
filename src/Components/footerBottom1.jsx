@@ -1,4 +1,4 @@
-import amazonLogo from "../assets/amazon logo.png";
+import amazonLogo from "../assets/amazon_logo.png";
 import amazonIcon from "../assets/website icon.png";
 import engFlag from "../assets/Eng-flag.png";
 
